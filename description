@@ -1,0 +1,12 @@
+In CART algorithm, the objective is to minimize the cost function (Gini Index) at each node. 
+Steps of CART Algorithms:
+
+1. Select Root node(S) based on Gini Index and Highest Information Gain
+
+2 . On each iteration of an algorithms it calculate the Gini Index and Information gain, considering that every node is unused
+
+3. Select node base on Lowest Gini Index or Highest I.G
+
+4. then Splits set S to produce the subsets of data
+
+5. An algorithms continuous to recur on each subset and make sure that attributes are fresh and Creates the decision Tree
